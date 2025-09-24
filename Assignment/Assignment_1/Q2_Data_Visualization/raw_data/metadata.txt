@@ -1,0 +1,59 @@
+# METADATA FOR StudentsPerformance.csv
+
+## 1. DATASET DESCRIPTION
+
+This dataset contains data on the performance of students in math, reading, and writing. It includes demographic information such as gender, race/ethnicity, and parental level of education, as well as information about their lunch type and whether they completed a test preparation course. The dataset is designed for analyzing the factors that influence student academic performance.
+
+---
+
+## 2. SOURCE INFORMATION
+
+* **Original File Name:** StudentsPerformance.csv
+* **Source URL:** https://app.box.com/s/ji910ez3ycw137rw07xnhielxey7ww41 
+* **Format:** Comma-Separated Values (CSV)
+
+---
+
+## 3. COLUMN DESCRIPTIONS
+
+This dataset contains 8 columns:
+
+1.  **gender**
+    * **Description:** The gender of the student.
+    * **Data Type:** Text (Categorical)
+    * **Values:** "female", "male"
+
+2.  **race/ethnicity**
+    * **Description:** The student's racial or ethnic background.
+    * **Data Type:** Text (Categorical)
+    * **Values:** "group A", "group B", "group C", "group D", "group E"
+
+3.  **parental level of education**
+    * **Description:** The highest level of education attained by the student's parent(s).
+    * **Data Type:** Text (Categorical, Ordinal)
+    * **Values:** "bachelor's degree", "some college", "master's degree", "associate's degree", "high school", "some high school"
+
+4.  **lunch**
+    * **Description:** The type of lunch the student receives. This often correlates with socioeconomic status.
+    * **Data Type:** Text (Categorical)
+    * **Values:** "standard", "free/reduced"
+
+5.  **test preparation course**
+    * **Description:** Whether the student completed a test preparation course.
+    * **Data Type:** Text (Categorical)
+    * **Values:** "none", "completed"
+
+6.  **math score**
+    * **Description:** The student's score on the math test.
+    * **Data Type:** Integer (Numerical)
+    * **Range:** 0-100
+
+7.  **reading score**
+    * **Description:** The student's score on the reading test.
+    * **Data Type:** Integer (Numerical)
+    * **Range:** 0-100
+
+8.  **writing score**
+    * **Description:** The student's score on the writing test.
+    * **Data Type:** Integer (Numerical)
+    * **Range:** 0-100
