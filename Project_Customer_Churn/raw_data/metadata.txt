@@ -33,122 +33,80 @@ This dataset contains 21 columns:
    * **Data Type:** Text (Categorical)
    * **Values:** "Female", "Male"
 
-3. ** SeniorCitizen***
+3. ** SeniorCitizen**
    * **Description:** Indicates if the customer is a senior citizen.
    * **Data Type:** Numeric (Categorical)
    * **Values:** 1 (Yes), 0 (No)
 
-Partner
+4. **Partner**
+   * **Description:** Indicates if the customer has a partner.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No"
 
-Description: Indicates if the customer has a partner.
+5. **Dependents**
+   * **Description:** Indicates if the customer has dependents.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No"
 
-Data Type: Text (Categorical)
+6. **tenure**
+   * **Description:** The number of months the customer has been with the company.
+   * **Data Type:** Numeric (Integer)
+   * **Values:** 1 - 72
 
-Values: "Yes", "No"
+7. **PhoneService**
+   * **Description:** Indicates if the customer has phone service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No"
 
-Dependents
+8. **MultipleLines**
+   * **Description:** Indicates if the customer has multiple phone lines.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No phone service"
 
-Description: Indicates if the customer has dependents.
+9. **InternetService**
+   * **Description:** The type of internet service the customer has.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "DSL", "Fiber optic", "No"
 
-Data Type: Text (Categorical)
+10.**OnlineSecurity**
+   * **Description:** Indicates if the customer has online security service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-Values: "Yes", "No"
+11.**OnlineBackup**
+   * **Description:** Indicates if the customer has online backup service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-tenure
+12.**DeviceProtection**
+   * **Description:** Indicates if the customer has device protection service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-Description: The number of months the customer has been with the company.
+13.**TechSupport**
+   * **Description:** Indicates if the customer has tech support service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-Data Type: Numeric (Integer)
+14.**StreamingTV**
+   * **Description:** Indicates if the customer has a TV streaming service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-Values: 1 - 72
+15.**StreamingMovies**
+   * **Description:** Indicates if the customer has a movie streaming service.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No", "No internet service"
 
-PhoneService
+16.**Contract**
+   * **Description:** The customer's contract term.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Month-to-month", "One year", "Two year"
 
-Description: Indicates if the customer has phone service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No"
-
-MultipleLines
-
-Description: Indicates if the customer has multiple phone lines.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No phone service"
-
-InternetService
-
-Description: The type of internet service the customer has.
-
-Data Type: Text (Categorical)
-
-Values: "DSL", "Fiber optic", "No"
-
-OnlineSecurity
-
-Description: Indicates if the customer has online security service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-OnlineBackup
-
-Description: Indicates if the customer has online backup service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-DeviceProtection
-
-Description: Indicates if the customer has device protection service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-TechSupport
-
-Description: Indicates if the customer has tech support service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-StreamingTV
-
-Description: Indicates if the customer has a TV streaming service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-StreamingMovies
-
-Description: Indicates if the customer has a movie streaming service.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No", "No internet service"
-
-Contract
-
-Description: The customer's contract term.
-
-Data Type: Text (Categorical)
-
-Values: "Month-to-month", "One year", "Two year"
-
-PaperlessBilling
-
-Description: Indicates if the customer uses paperless billing.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No"
+17.**PaperlessBilling**
+   * **Description:** Indicates if the customer uses paperless billing.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No"
 
 PaymentMethod
 
