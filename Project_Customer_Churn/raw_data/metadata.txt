@@ -108,53 +108,23 @@ This dataset contains 21 columns:
    * **Data Type:** Text (Categorical)
    * **Values:** "Yes", "No"
 
-PaymentMethod
+18.**PaymentMethod**
+   * **Description:** The customer's payment method.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"
 
-Description: The customer's payment method.
+19.**MonthlyCharges**
+   * **Description:** The amount charged to the customer monthly.
+   * **Data Type:** Numeric (Continuous)
+   * **Values:** e.g., 29.85, 56.95
 
-Data Type: Text (Categorical)
+20.**TotalCharges**
+   * **Description:** The total amount charged to the customer.
+   * **Data Type:** Numeric (Continuous)
+   * **Values:** e.g., 29.85, 1889.5
 
-Values: "Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"
+21.**Churn**
+   * **Description:** The target variable, indicating if the customer has churned.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Yes", "No"
 
-MonthlyCharges
-
-Description: The amount charged to the customer monthly.
-
-Data Type: Numeric (Continuous)
-
-Values: e.g., 29.85, 56.95
-
-TotalCharges
-
-Description: The total amount charged to the customer.
-
-Data Type: Numeric (Continuous)
-
-Values: e.g., 29.85, 1889.5
-
-Churn
-
-Description: The target variable, indicating if the customer has churned.
-
-Data Type: Text (Categorical)
-
-Values: "Yes", "No"
-SeniorCitizen	Whether a customer can be classified as a senior citizen (1, 0).
-Partner	If a customer is married/in a live-in relationship (Yes, No).
-Dependents	If a customer has dependents (children/retired parents) (Yes, No).
-tenure	The time for which a customer has been using the service (in months).
-PhoneService	Whether a customer has a landline phone service (Yes, No).
-MultipleLines	Whether a customer has multiple lines (Yes, No, No phone service).
-InternetService	The type of internet services chosen by the customer (DSL, Fiber optic, No).
-OnlineSecurity	Specifies if a customer has online security (Yes, No, No internet service).
-OnlineBackup	Specifies if a customer has online backup (Yes, No, No internet service).
-DeviceProtection	Specifies if a customer has opted for device protection (Yes, No, No internet service).
-TechSupport	Whether a customer has opted for tech support or not (Yes, No, No internet service).
-StreamingTV	Whether a customer has an option of TV streaming (Yes, No, No internet service).
-StreamingMovies	Whether a customer has an option of Movie streaming (Yes, No, No internet service).
-Contract	The type of contract a customer has chosen (Month-to-month, One year, Two year).
-PaperlessBilling	Whether a customer has opted for paperless billing (Yes, No).
-PaymentMethod	Specifies the method by which bills are paid.
-MonthlyCharges	Specifies the money paid by a customer each month.
-TotalCharges	The total money paid by the customer to the company.
-Churn	This is the target variable which specifies if a customer has churned or not (Yes, No).
