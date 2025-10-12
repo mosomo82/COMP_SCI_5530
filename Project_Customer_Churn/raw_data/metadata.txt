@@ -1,1 +1,202 @@
+# METADATA FOR Telco_Customer_Churn.csv
 
+## 1. DATASET INFORMATION
+
+Description: This dataset contains information about a fictional telecommunications company. Each row represents a customer, and the columns contain customer attributes. The "Churn" column indicates whether the customer left within the last month. The dataset is often used for predicting customer churn. 
+
+Rows: 7,043
+
+Columns: 21
+
+---
+
+## 2. SOURCE INFORMATION
+
+* **Original File Name:** Telco_Customer_Churn.csv
+* **Source URL:** https://www.kaggle.com/datasets/mosapabdelghany/telcom-customer-churn-dataset
+* **Format:** Comma-Separated Values (CSV)
+
+---
+
+## 3. COLUMN DESCRIPTIONS
+
+This dataset contains 21 columns: 
+
+
+1. **customerID**	
+   * **Description:** The unique ID of each customer.
+   * **Data Type:** Text (Alphanumeric)
+   * **Values:** e.g., "7590-VHVEG", "5575-GNVDE"
+
+2. **gender**
+   * **Description:** The customer's gender.
+   * **Data Type:** Text (Categorical)
+   * **Values:** "Female", "Male"
+
+3. ** SeniorCitizen***
+   * **Description:** Indicates if the customer is a senior citizen.
+   * **Data Type:** Numeric (Categorical)
+   * **Values:** 1 (Yes), 0 (No)
+
+Partner
+
+Description: Indicates if the customer has a partner.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No"
+
+Dependents
+
+Description: Indicates if the customer has dependents.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No"
+
+tenure
+
+Description: The number of months the customer has been with the company.
+
+Data Type: Numeric (Integer)
+
+Values: 1 - 72
+
+PhoneService
+
+Description: Indicates if the customer has phone service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No"
+
+MultipleLines
+
+Description: Indicates if the customer has multiple phone lines.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No phone service"
+
+InternetService
+
+Description: The type of internet service the customer has.
+
+Data Type: Text (Categorical)
+
+Values: "DSL", "Fiber optic", "No"
+
+OnlineSecurity
+
+Description: Indicates if the customer has online security service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+OnlineBackup
+
+Description: Indicates if the customer has online backup service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+DeviceProtection
+
+Description: Indicates if the customer has device protection service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+TechSupport
+
+Description: Indicates if the customer has tech support service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+StreamingTV
+
+Description: Indicates if the customer has a TV streaming service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+StreamingMovies
+
+Description: Indicates if the customer has a movie streaming service.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No", "No internet service"
+
+Contract
+
+Description: The customer's contract term.
+
+Data Type: Text (Categorical)
+
+Values: "Month-to-month", "One year", "Two year"
+
+PaperlessBilling
+
+Description: Indicates if the customer uses paperless billing.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No"
+
+PaymentMethod
+
+Description: The customer's payment method.
+
+Data Type: Text (Categorical)
+
+Values: "Electronic check", "Mailed check", "Bank transfer (automatic)", "Credit card (automatic)"
+
+MonthlyCharges
+
+Description: The amount charged to the customer monthly.
+
+Data Type: Numeric (Continuous)
+
+Values: e.g., 29.85, 56.95
+
+TotalCharges
+
+Description: The total amount charged to the customer.
+
+Data Type: Numeric (Continuous)
+
+Values: e.g., 29.85, 1889.5
+
+Churn
+
+Description: The target variable, indicating if the customer has churned.
+
+Data Type: Text (Categorical)
+
+Values: "Yes", "No"
+SeniorCitizen	Whether a customer can be classified as a senior citizen (1, 0).
+Partner	If a customer is married/in a live-in relationship (Yes, No).
+Dependents	If a customer has dependents (children/retired parents) (Yes, No).
+tenure	The time for which a customer has been using the service (in months).
+PhoneService	Whether a customer has a landline phone service (Yes, No).
+MultipleLines	Whether a customer has multiple lines (Yes, No, No phone service).
+InternetService	The type of internet services chosen by the customer (DSL, Fiber optic, No).
+OnlineSecurity	Specifies if a customer has online security (Yes, No, No internet service).
+OnlineBackup	Specifies if a customer has online backup (Yes, No, No internet service).
+DeviceProtection	Specifies if a customer has opted for device protection (Yes, No, No internet service).
+TechSupport	Whether a customer has opted for tech support or not (Yes, No, No internet service).
+StreamingTV	Whether a customer has an option of TV streaming (Yes, No, No internet service).
+StreamingMovies	Whether a customer has an option of Movie streaming (Yes, No, No internet service).
+Contract	The type of contract a customer has chosen (Month-to-month, One year, Two year).
+PaperlessBilling	Whether a customer has opted for paperless billing (Yes, No).
+PaymentMethod	Specifies the method by which bills are paid.
+MonthlyCharges	Specifies the money paid by a customer each month.
+TotalCharges	The total money paid by the customer to the company.
+Churn	This is the target variable which specifies if a customer has churned or not (Yes, No).
