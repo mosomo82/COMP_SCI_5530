@@ -42,11 +42,12 @@ This dataset is ideal for several key data science tasks:
 ## Installation / Setup
 
 - **Requirement**: None
-- ** Enviroment**: This assignement was built using R. Change runtime in Google Colab by choosing Runtime > Change runtime type > Click on down arrow under Runtime type > Select R > Click Save
+- **Enviroment**: This assignement was built using R. Change runtime in Google Colab by choosing Runtime > Change runtime type > Click on down arrow under Runtime type > Select R > Click Save
 
 ## How to Run the Project
 
-**1.** Open the notebooks in src/*.ipynb (e.g. in Google Colab) to explore data and visualizations.
+**1.** Open the notebooks in [src/*.ipynb](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q2_Diabetes/src/Assignment2_Diabetes.ipynb) (e.g. in Google Colab) to explore data and visualizations.
+
 **2.** Run top-to-bottom. Output will be saved locally to see the analysis and findings. 
 
 ## Future Work/Next Steps:
@@ -58,7 +59,7 @@ This dataset is ideal for several key data science tasks:
 
 ## Authors/Contributors:
 
--**Tony Nguyen** - Github Profile
+- **Tony Nguyen** - [Github Profile](https://github.com/mosomo82)
 
 ## Acknowledgements
 
