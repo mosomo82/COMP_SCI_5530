@@ -58,7 +58,7 @@ This dataset is ideal for several key data science tasks:
 
 ## Authors/Contributors:
 
--**Tony Nguyen** - [Github Profile](https://github.com/mosomo82)
+- **Tony Nguyen** - [Github Profile](https://github.com/mosomo82)
 
 ## Acknowledgements
 
