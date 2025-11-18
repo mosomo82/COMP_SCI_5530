@@ -15,7 +15,8 @@ Q1_Used_Cars/
 ├── results/  
 │   └── analysis_goal.csv  # The output of the final brand analysis
 ├── src/                       # Source code and notebooks
-│   └── Assignment2_Used_Cars.ipynb # R notebook for all cleaning and analysis
+│   └── Assignment2_Used_Cars.ipynb     # R notebook for all cleaning and analysis
+└── Assignment_2_Used_Cars_Report.docx  # Re[prt amd finding documention
 └── README.md                  # Project documentation
 ```
 
