@@ -41,8 +41,12 @@ This dataset is ideal for several key data science tasks:
 
 ## Installation / Setup
 
-- **Requirement**: None
-- **Enviroment**: This assignement was built using R. Change runtime in Google Colab by choosing Runtime > Change runtime type > Click on down arrow under Runtime type > Select R > Click Save
+- **Requirement (R Libraries)**: The notebook relies on several R packages for data manipulation and analysis. You can install them by running:
+```R
+install.packages(c("dplyr", "tidyr", "readr", "stringr", "ggplot2")
+```
+- **Enviroment**: This assignement was built using **R** and is intended to be run in an environment like Google Colab or RStudio.
+    * **Google Colab Setup:** To run in Colab, open `src/Assignment2_Diabetes.ipynb`, then select **Runtime > Change runtime type > Select R > Save**.
 
 ## How to Run the Project
 
@@ -57,6 +61,8 @@ This dataset is ideal for several key data science tasks:
 
 ## License
 
+- This project is licensed under the UMKC License.
+  
 ## Authors/Contributors:
 
 - **Tony Nguyen** - [Github Profile](https://github.com/mosomo82)
