@@ -102,7 +102,7 @@ install.packages(c("dplyr", "tidyr", "readr", "stringr", "ggplot2")
 
 ## License
 
-This project is licensed under the UMKC License. 
+- This project is licensed under the UMKC License. 
 
 ## Authors/Contributors:
 
