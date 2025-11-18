@@ -16,7 +16,7 @@ Q1_Used_Cars/
 │   └── analysis_goal.csv  # The output of the final brand analysis
 ├── src/                       # Source code and notebooks
 │   └── Assignment2_Used_Cars.ipynb     # R notebook for all cleaning and analysis
-└── Assignment_2_Used_Cars_Report.docx  # Re[prt amd finding documention
+└── Assignment_2_Used_Cars_Report.docx  # Report amd finding documention
 └── README.md                  # Project documentation
 ```
 
@@ -77,12 +77,17 @@ The final analysis, saved in [/results/analysis_goal.csv](https://github.com/mos
     3. Maruti: 4,212 km/year
 
 # Notes
-- The New_Price column had over 86% missing data. While it was imputed using a robust grouped-median strategy, an alternative approach would be to drop this column entirely to prevent model bias.
+- The `New_Price` column had over 86% missing data. While it was imputed using a robust grouped-median strategy, an alternative approach would be to drop this column entirely to prevent model bias.
 
 ## Installation / Setup
 
-- **Requirement**: None
-- **Enviroment**: This assignement was built using R. Change runtime in Google Colab by choosing Runtime > Change runtime type > Click on down arrow under Runtime type > Select R > Click Save
+- **Requirement (R Libraries)**: The notebook relies on several R packages for data manipulation and analysis. You can install them by running:
+```R
+install.packages(c("dplyr", "tidyr", "readr", "stringr", "ggplot2")
+```
+
+- **Enviroment**: This assignement was built using **R** and is intended to be run in an environment like Google Colab or RStudio.
+    * **Google Colab Setup:** To run in Colab, open `src/Assignment2_Used_Cars.ipynb`, then select **Runtime > Change runtime type > Select R > Save**.
 
 ## How to Run the Project
 
@@ -93,9 +98,11 @@ The final analysis, saved in [/results/analysis_goal.csv](https://github.com/mos
 ## Future Work/Next Steps:
 
 - **Build Prediction Model**: The `clean_used_cars.csv` dataset is perfectly prepared for machine learning. The clear next step is to build regression models (e.g., Linear Regression, Random Forest) to predict the selling price `New_Price`
-- **Evaluate Performace**: Measure your models' accuracy using metrics like Root Mean Squared Error (RMSE) and R-squared ($R^2$) to see how closely your predictions match the actual selling prices.
+- **Evaluate Performace**: Measure your models' accuracy using metrics like Root Mean Squared Error ($\sqrt{RMSE}$) and R-squared ($R^2$) to see how closely your predictions match the actual selling prices.
 
 ## License
+
+This project is licensed under the UMKC License. 
 
 ## Authors/Contributors:
 
