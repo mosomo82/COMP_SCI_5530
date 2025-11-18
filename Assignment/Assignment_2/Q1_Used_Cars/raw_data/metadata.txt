@@ -1,0 +1,102 @@
+# METADATA FOR Used Car Prices Dataset
+
+## 1\. DATASET DESCRIPTION
+
+This dataset contains information about used cars listed for sale. It includes details about the car's specifications, usage, and pricing.
+
+-----
+
+## 2\. SOURCE INFORMATION
+
+  * **Original File Name:** `train.csv`
+  * **Format:** Comma-Separated Values (CSV)
+
+-----
+
+## 3\. COLUMN DESCRIPTIONS
+
+This dataset contains 14 columns:
+
+1.  **Unnamed: 0**
+
+      * **Description:** An identifier column, likely a row index from the original source.
+      * **Data Type:** Integer (Numerical)
+      * **Units:** N/A
+
+2.  **Name**
+
+      * **Description:** The full name of the car, typically including the make, model, and variant (e.g., "Hyundai Creta 1.6 CRDi SX Option").
+      * **Data Type:** Text (Categorical)
+      * **Units:** N/A
+
+3.  **Location**
+
+      * **Description:** The city where the car is listed for sale (e.g., "Pune", "Chennai").
+      * **Data Type:** Text (Categorical)
+      * **Units:** N/A
+
+4.  **Year**
+
+      * **Description:** The year the car was manufactured.
+      * **Data Type:** Integer (Numerical)
+      * **Units:** Year
+
+5.  **Kilometers_Driven**
+
+      * **Description:** The total distance the car has been driven since it was new.
+      * **Data Type:** Integer (Numerical)
+      * **Units:** Kilometers
+
+6.  **Fuel_Type**
+
+      * **Description:** The type of fuel the car uses (e.g., "Diesel", "Petrol").
+      * **Data Type:** Text (Categorical)
+      * **Units:** N/A
+
+7.  **Transmission**
+
+      * **Description:** The type of gearbox in the car (e.g., "Manual", "Automatic").
+      * **Data Type:** Text (Categorical)
+      * **Units:** N/A
+
+8.  **Owner_Type**
+
+      * **Description:** The number of previous owners the car has had (e.g., "First", "Second").
+      * **Data Type:** Text (Categorical)
+      * **Units:** N/A
+
+9.  **Mileage**
+
+      * **Description:** The fuel efficiency of the car.
+      * **Data Type:** Text (Numerical, requires cleaning)
+      * **Units:** "kmpl" (kilometers per liter) or "km/kg" (kilometers per kilogram)
+
+10. **Engine**
+
+      * **Description:** The displacement of the car's engine.
+      * **Data Type:** Text (Numerical, requires cleaning)
+      * **Units:** "CC" (cubic centimeters)
+
+11. **Power**
+
+      * **Description:** The maximum power output of the car's engine.
+      * **Data Type:** Text (Numerical, requires cleaning)
+      * **Units:** "bhp" (brake horsepower)
+
+12. **Seats**
+
+      * **Description:** The number of seats in the car.
+      * **Data Type:** Float (Numerical)
+      * **Units:** N/A
+
+13. **New_Price**
+
+      * **Description:** The original showroom price of the car when it was for sale. This column has many missing values.
+      * **Data Type:** Text (Numerical, requires cleaning)
+      * **Units:** "Lakh" or "Cr"
+
+14. **Price**
+
+      * **Description:** The listed buying price of the used car.
+      * **Data Type:** Float (Numerical)
+      * **Units:** "Lakh"

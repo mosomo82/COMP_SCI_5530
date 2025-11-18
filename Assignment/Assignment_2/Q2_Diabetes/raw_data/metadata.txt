@@ -1,0 +1,63 @@
+# METADATA FOR Diabetes Dataset
+
+## 1. DATASET DESCRIPTION
+
+This dataset contains diagnostic information from a study on diabetes. It includes various medical predictor variables and a target variable indicating whether the participant has diabetes.
+
+---
+
+## 2. SOURCE INFORMATION
+
+* **Original File Name:** `diabetes.csv`
+* **Format:** Comma-Separated Values (CSV)
+
+---
+
+## 3. COLUMN DESCRIPTIONS
+
+This dataset contains 9 columns:
+
+1.  **Pregnancies**
+    * **Description:** The number of times the participant has been pregnant.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** N/A
+
+2.  **Glucose**
+    * **Description:** The participant's plasma glucose concentration after a 2-hour oral glucose tolerance test.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** mg/dL (milligrams per deciliter)
+
+3.  **BloodPressure**
+    * **Description:** The participant's diastolic blood pressure.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** mm Hg (millimeters of mercury)
+
+4.  **SkinThickness**
+    * **Description:** The participant's triceps skinfold thickness.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** mm (millimeters)
+
+5.  **Insulin**
+    * **Description:** The participant's 2-hour serum insulin level.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** mu U/ml (micro-units per milliliter)
+
+6.  **BMI**
+    * **Description:** The participant's Body Mass Index.
+    * **Data Type:** Float (Numerical)
+    * **Units:** kg/m² (kilograms per square meter)
+
+7.  **DiabetesPedigreeFunction**
+    * **Description:** A function that scores the likelihood of diabetes based on family history.
+    * **Data Type:** Float (Numerical)
+    * **Units:** N/A
+
+8.  **Age**
+    * **Description:** The age of the participant at the time of the study.
+    * **Data Type:** Integer (Numerical)
+    * **Units:** Years
+
+9.  **Outcome**
+    * **Description:** A binary indicator of whether the participant was diagnosed with diabetes.
+    * **Data Type:** Integer (Categorical)
+    * **Values:** "1" (Has Diabetes), "0" (Does Not Have Diabetes)
