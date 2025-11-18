@@ -35,9 +35,9 @@ This dataset is ideal for several key data science tasks:
 
 ## Dataset Description
 
-- **File**: raw_data/metadata.txt
+- **File**: [raw_data/train.csv](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q1_Used_Cars/raw_data/train.csv)
 - **Source**: This is the Pima Indians Diabetes Dataset, originally from the National Institute of Diabetes and Digestive and Kidney Diseases.
-- **Description**: This dataset contains 768 entries (all female participants of Pima Indian heritage) with 8 medical predictor variables and 1 target variable (Outcome)
+- **Description**: [raw_data/metadata.txt](https://github.com/mosomo82/COMP_SCI_5530/blob/main/Assignment/Assignment_2/Q1_Used_Cars/raw_data/metadata.txt) This dataset contains 768 entries (all female participants of Pima Indian heritage) with 8 medical predictor variables and 1 target variable (Outcome)
 
 ## Installation / Setup
 
