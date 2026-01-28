@@ -8,12 +8,12 @@ This project focuses on predicting the onset of diabetes based on diagnostic med
 ```
 Q2_Diabetes/
 ├── clean_data                 	   	 # Processed and cleaned dataset
-│   ├── clean_data.csv           
+│   └── clean_data.csv           
 ├── raw_data						 # Original dataset
 │   ├── diabetes.csv   		    
 │   └── metadata.txt
 ├── results/                 		 # Output results and visualization
-│   ├── comparison_plot.png  
+│   └── comparison_plot.png  
 ├── src/   
 │   └── Assignment2_Diabetes.ipynb 
 └── Assignment2_Diabetes_Report.docx # Report and finding documentation
